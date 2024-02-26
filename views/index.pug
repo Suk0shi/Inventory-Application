@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  p This is a simple inventory tracking application.
+  h1 Dynamic content
+
+  p The inventory has the following item counts:
+
+  ul
+    li #[strong Items:] !{item_count}
+    li #[strong Catagories:] !{category_count}
