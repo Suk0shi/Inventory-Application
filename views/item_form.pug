@@ -22,7 +22,7 @@ block content
       textarea#description.form-control(placeholder='Description' name='description' required)= undefined===item ? '' : item.description
     div.form-group
       label(for='price') Price:
-      input#price.form-control(type='number', placeholder='£20' name='price' value=(undefined===item ? '' : item.price) required)
+      input#price.form-control(type='number', placeholder='60' name='price' value=(undefined===item ? '' : item.price) required)
     div.form-group
       label(for='numberInStock') Number in stock:
       input#numberInStock.form-control(type='number', placeholder='20' name='numberInStock' value=(undefined===item ? '' : item.numberInStock) required)
